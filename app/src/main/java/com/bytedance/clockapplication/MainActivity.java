@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        thread.destroy();
         // myHandler.removeCallbacksAndMessages(null);
         super.onDestroy();
     }
